@@ -1,0 +1,15 @@
+@import 'header.css';
+@import 'nev.css';
+@import 'banner.css';
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+
+}
+
+
+
+   
+    
