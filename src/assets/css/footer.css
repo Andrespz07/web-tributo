@@ -1,0 +1,17 @@
+footer {
+    background-color: #2F4971;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+}
+
+#factoria, #copy {
+    text-align: center;
+    display: inline-block;
+
+}
