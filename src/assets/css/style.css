@@ -5,3 +5,5 @@
 @import url(body.css);
 @import url(nev.css);
 @import url(header.css);
+@import 'banner.css';
+@import url(fText.css);

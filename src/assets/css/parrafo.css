@@ -1,9 +1,11 @@
 .biografia {
     background-color: #4E677D;
     text-align: center;
+    
 }
 
 #biografia-section {
     display: flex;
     width: 38%;
+    
 }

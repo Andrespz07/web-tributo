@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <script src="app.js"> </script>
+    
     <header>
         <div class="row">
             <div class="column">
@@ -70,13 +70,36 @@
 </div>
 
 </main>
+<div>
+  <div class="fma">
+    <span id="text1"></span>
+    <span id="text2"></span>
+  </div>
+  
+  
+  <svg id="filters">
+    <defs>
+      <filter id="threshold">
+      
+        <feColorMatrix in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+      </filter>
+    </defs>
+  </svg>
+</div>
 
 <footer>
-
+    
+  
     <h3 id="factoria">Factoría F5</h3>
 
     <p id="copy">Copyright 2022. Todos los derechos reservados - Web Tributo</p>
 
 </footer>
+<script src="app.js"> </script>
 </body>
 </html>
