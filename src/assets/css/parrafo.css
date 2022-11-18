@@ -1,10 +1,14 @@
 .biografia {
-    background-color: #4E677D;
-    text-align: center;
+    font-size: 1em;
+    margin: 5px 10px 10px 10px;
+    
 }
 
 #biografia-section {
     display: flex;
+    flex-direction: column;
     width: 38%;
+    background-color: #4E677D;
+    text-align: center;
 }
 
