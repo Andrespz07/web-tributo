@@ -5,11 +5,10 @@ const elts = {
 
 
 const texts = [
-	"welcome",
+	"Welcome",
 	"to",
 	"this",
-	"boot",
-	"comp",
+	"bootcamp",
 	"Factoría F5",
 	"Gijon!"
 ];
