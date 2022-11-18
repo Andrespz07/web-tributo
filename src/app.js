@@ -3,7 +3,7 @@ const elts = {
 	text2: document.getElementById("text2")
 };
 
-// The strings to morph between. You can change these to anything you want!
+
 const texts = [
 	"welcome",
 	"to",
@@ -14,7 +14,7 @@ const texts = [
 	"Gijon!"
 ];
 
-// Controls the speed of morphing.
+
 const morphTime = 1;
 const cooldownTime = 0.25;
 
