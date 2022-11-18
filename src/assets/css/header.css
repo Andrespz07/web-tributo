@@ -1,0 +1,33 @@
+header{
+    background-color: aqua;
+    
+}
+#Theader{
+    text-align: right; 
+
+}
+
+* {
+    box-sizing: border-box;
+}  
+.row {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    
+ }
+   
+.column {
+    flex: 33.33%; 
+    padding: 40px; 
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 0%;
+}
+#logo{
+    align-content: center;
+    width: 152px;
+    height: 134px;
+    border-radius: 50%;
+}
